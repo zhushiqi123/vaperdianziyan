@@ -1,0 +1,51 @@
+
+/* Class = "UINavigationItem"; title = "自定义"; ObjectID = "3gn-0Z-6Bx"; */
+"3gn-0Z-6Bx.title" = "自定义";
+
+/* Class = "UITabBarItem"; title = "电子烟"; ObjectID = "4zD-C9-IH5"; */
+"4zD-C9-IH5.title" = "电子烟";
+
+/* Class = "UILabel"; text = "Ni"; ObjectID = "5E7-3V-05b"; */
+"5E7-3V-05b.text" = "Ni";
+
+/* Class = "UILabel"; text = "选择雾化丝"; ObjectID = "5vq-XP-41M"; */
+"5vq-XP-41M.text" = "选择雾化丝";
+
+/* Class = "UINavigationItem"; title = "计划"; ObjectID = "9KW-z0-Lu3"; */
+"9KW-z0-Lu3.title" = "计划";
+
+/* Class = "UITabBarItem"; title = "计划"; ObjectID = "9th-yN-z6a"; */
+"9th-yN-z6a.title" = "计划";
+
+/* Class = "UILabel"; text = "最大输出功率标准参考值"; ObjectID = "Akk-EG-Ek1"; */
+"Akk-EG-Ek1.text" = "最大输出功率标准参考值";
+
+/* Class = "UITabBarItem"; title = "我的"; ObjectID = "G4x-qG-Kyt"; */
+"G4x-qG-Kyt.title" = "我的";
+
+/* Class = "UILabel"; text = "最大输出功率"; ObjectID = "LcG-LS-sJv"; */
+"LcG-LS-sJv.text" = "最大输出功率";
+
+/* Class = "UILabel"; text = "变化率"; ObjectID = "PeE-HJ-jfW"; */
+"PeE-HJ-jfW.text" = "变化率";
+
+/* Class = "UILabel"; text = "10W"; ObjectID = "nBD-KK-nXp"; */
+"nBD-KK-nXp.text" = "10W";
+
+/* Class = "UILabel"; text = "200W"; ObjectID = "nIf-Cj-bj2"; */
+"nIf-Cj-bj2.text" = "200W";
+
+/* Class = "UITabBarItem"; title = "自定义"; ObjectID = "o74-4K-BLJ"; */
+"o74-4K-BLJ.title" = "自定义";
+
+/* Class = "UILabel"; text = "0.001"; ObjectID = "rxk-Jq-lOr"; */
+"rxk-Jq-lOr.text" = "0.001";
+
+/* Class = "UILabel"; text = "变化率标准参考值"; ObjectID = "uFM-HT-h7c"; */
+"uFM-HT-h7c.text" = "变化率标准参考值";
+
+/* Class = "UINavigationItem"; title = "设置"; ObjectID = "uiO-2h-gcI"; */
+"uiO-2h-gcI.title" = "设置";
+
+/* Class = "UILabel"; text = "0.003"; ObjectID = "ykz-SJ-H2o"; */
+"ykz-SJ-H2o.text" = "0.003";

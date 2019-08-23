@@ -1,0 +1,254 @@
+/* 
+  Localizable.strings
+  uvapor
+
+  Created by 田阳柱 on 16/11/26.
+  Copyright © 2016年 TYZ. All rights reserved.
+*/
+//[InternationalControl return_string:@"Vapor_device"];
+//底部状态栏
+"tabBar_device" = "电子烟";
+"tabBar_Custom" = "自定义";
+"tabBar_Plan" = "计划";
+"tabBar_My" = "我的";
+
+//电子烟 - View
+"Vapor_device" = "设备";
+
+"Vapor_Power" = "功率W";
+"Vapor_Temp_F" = "温度℉";
+"Vapor_Temp_C" = "温度℃";
+"Vapor_Voltage" = "电压V";
+
+"Vapor_Atomizer" = "雾化器";
+"Vapor_number" = "口数";
+"Vapor_nums" = "";
+"Vapor_Times" = "时长";
+
+"Vapor_choose_Atomizer" = "请选择雾化器";
+"Vapor_choose_Atomizer_message" = "请保持雾化器为常温状态!";
+
+"Vapor_choose_Custom" = "请选择曲线";
+"Vapor_choose_Custom_message" = "请选择功率控制曲线";
+
+"Vapor_change_DeviceName" = "修改设备名称";
+"Vapor_change_DeviceName_message" = "修改设备名称最长为5个汉字!";
+"Vapor_change_DeviceName_warning" = "请输入设备名称";
+"Vapor_change_DeviceName_error" = "设备名称长度错误";
+"Vapor_change_DeviceName_failure" = "设置名称成功";
+"Vapor_change_DeviceName_success" = "设置名称失败";
+
+"Vapor_login_warning" = "请先登录并绑定设备";
+"Vapor_binding_warning" = "请先绑定设备";
+"Vapor_NoDevice_warning" = "没有扫描到设备";
+
+//自定义 - View
+"Custom_title" = "自定义";
+
+"Custom_bar_powerLine" = "功率曲线";
+"Custom_bar_Update" = "程序升级";
+"Custom_bar_TurnOrOff" = "开关机";
+"Custom_bar_powerBattery" = "电池信息";
+
+"Custom_TCR_choose_Atomizer" = "选择雾化丝";
+"Custom_TCR_choose_Power_Message" = "最大输出功率标准参考值";
+"Custom_TCR_choose_Power" = "最大输出功率";
+"Custom_TCR_choose_Rate_Message" = "变化率标准参考值";
+"Custom_TCR_choose_Rate" = "变化率";
+
+"Custom_PowerLine_editor" = "编辑";
+"Custom_PowerLine_use" = "使用";
+"Custom_PowerLine_dataa_rror" = "曲线数据错误";
+"Custom_PowerLine_dataa_error_01" = "曲线点需要满足21个";
+
+"Custom_LOGO_warning" = "此设备暂不支持";
+
+//软件升级
+"Custom_Update_softName" = "软件名称";
+"Custom_Update_deviceName" = "硬件名称";
+"Custom_Update_fileName" = "文件名称";
+"Custom_Update_message" = "*特别提示:";
+"Custom_Update_warning01" = "升级过程中请勿断开蓝牙;";
+"Custom_Update_warning02" = "升级过程中请勿离开此页面;";
+"Custom_Update_warning03" = "升级过程中请勿操作电子烟,并且保持电子烟与手机的距离;";
+"Custom_Update_warning04" = "当升级失败,请回退到安装包选择页面,重新进行升级操作;";
+"Custom_Update_netWork_Error" = "网络连接失败";
+"Custom_Update_not_update" = "没有可用的更新";
+
+//软件升级错误部分
+"Custom_Update_status_UndoUpdate" = "取消升级";
+"Custom_Update_status_progress" = "升级进度:";
+"Custom_Update_status_checkFile" = "校验文件";
+"Custom_Update_status_checkFile_start" = "开始校验文件";
+"Custom_Update_status_checkFileOK" = "文件校验通过";
+"Custom_Update_status_checkBin" = "验证安装包";
+"Custom_Update_status_checkBinOutTime" = "安装包验证超时";
+"Custom_Update_status_checkBinError" = "安装包校验出错";
+"Custom_Update_status_checkBinName" = "检测文件名称";
+"Custom_Update_status_CheckSoftVersion" = "检测软件版本";
+"Custom_Update_status_CheckDeviceVersion" = "检测硬件";
+"Custom_Update_status_CheckBinFiel" = "检测文件";
+"Custom_Update_status_UpdateFiel" = "下载安装包";
+"Custom_Update_status_downOk" = "数据接收完成，等待写入";
+"Custom_Update_status_device_restart" = "设备正在重启,等待重连";
+"Custom_Update_status_checkFileError" = "文件不匹配,请重新下载";
+"Custom_Update_status_softVisionError" = "软件版本过低,请重新下载";
+"Custom_Update_status_BleError" = "蓝牙信号不稳定,请重新下载";
+"Custom_Update_status_writeNow" = "设备正在写入程序";
+"Custom_Update_status_writeNowError" = "设备写入程序失败";
+"Custom_Update_status_device_restart_now" = "设备重启等待重连";
+"Custom_Update_status_UpdateSuccess" = "升级成功";
+"Custom_Update_status_UpdateSuccess01" = "升级成功，请手动连接电子烟";
+"Custom_Update_status_updateSuccessError" = "连接失败，请手动连接电子烟";
+"Custom_Update_status_BLEOutError" = "蓝牙断开，请重新下载";
+"Custom_Update_status_BLEOut" = "蓝牙断开，请保持设备距离";
+"Custom_Update_status_AllCheckNow" = "正在进行程序总校验";
+"Custom_Update_status_WriteError" = "设备写入程序失败";
+"Custom_Update_status_UpdateError" = "升级失败";
+
+"Custom_TurnOrOff_Lock" = "关机";
+"Custom_TurnOrOff_unlock" = "开机";
+
+"Custom_powerBattery_voltage" = "充电电压";
+"Custom_powerBattery_current" = "充电电流";
+"Custom_powerBattery_battery" = "电池";
+
+//计划 - View
+"Plan_lable01_title" = "当前吸烟口数";
+"Plan_lable01_planText" = "计划设置";
+"Plan_lable01_planWindow_title" = "请输入预设口数";
+"Plan_lable01_planWindow_error" = "参数错误";
+"Plan_lable01_planWindow_success" = "设置成功";
+
+"Plan_lable02_title" = "吸烟记录曲线图";
+
+"Plan_lable03_title" = "吸烟记录条形图";
+
+"Plan_lable04_title" = "吸烟习惯分享";
+
+//我的 - View
+"My_Login" = "登录";
+"My_Friends" = "我的好友";
+"My_Message" = "我的消息";
+"My_Device" = "我的设备";
+"My_Language" = "语言";
+"My_Shop" = "在线商店";
+"My_feedback" = "意见反馈";
+"My_shareAPP" = "推荐给好友";
+
+"GreenHandStatus" = "新手模式";
+"GreenHandON" = "开";
+"GreenHandOFF" = "关";
+
+//登录
+"My_Login_input_userName" = "请输入用户名";
+"My_Login_input_password" = "请输入密码";
+"My_Login_registered" = "快速注册";
+"My_Login_findPassword" = "找回密码";
+"My_Login_username" = "请输入您的用户名";
+"My_Login_username_error01" = "用户名格式错误";
+"My_Login_password_error01" = "请输入您的密码";
+"My_Login_password_error02" = "密码格式错误";
+"My_Login_error" = "账户名或者密码错误";
+
+//注册
+"My_registered" = "注册";
+"My_registered_input_userName" = "请输入您的手机号码进行注册";
+"My_registered_phone" = "手机号";
+"My_registered_phone11" = "11位手机号码";
+"My_registered_checknum4" = "4位验证码";
+"My_registered_checknum" = "验证码";
+"My_registered_getCheckNum" = "获取验证码";
+"My_registered_getCheckNum_success" = "验证码获取成功";
+"My_registered_phone_use_error" = "号码已经被注册";
+"My_registered_nex" = "下一页";
+"My_registered_phoneError" = "手机号码格式错误";
+"My_registered_input_checkNum" = "请输入验证码";
+"My_registered_checkNumError" = "验证码错误";
+
+"My_registered_2_setTitle" = "请设置您的昵称和密码";
+"My_registered_2_setNickName_lable" = "昵称";
+"My_registered_2_setpassword_lable" = "密码";
+"My_registered_2_setagain_lable" = "重复密码";
+"My_registered_2_setNickName_text" = "请设置您的昵称";
+"My_registered_2_setpassword_text" = "请设置您的密码";
+"My_registered_2_setagain_text" = "请重新输入您的密码";
+
+"My_registered_02_nickToLong" = "昵称设置过长";
+"My_registered_02_pwdToLong" = "密码长度错误";
+"My_registered_02_pwdError" = "两次密码是输入不一致";
+"My_registered_02_inputuseName" = "请输入昵称";
+"My_registered_02_pwd_error" = "密码格式错误";
+"My_registered_02_Complete" = "完成";
+"My_registered_02_success" = "注册成功";
+"My_registered_02_failure" = "注册失败";
+
+//快速找回密码
+"My_findPassword" = "找回密码";
+"My_findPassword_title" = "请输入您的手机号码进行密码找回";
+"My_findPassword_2_newPwd" = "请设置您的新密码";
+"My_findPassword_2_newPwdAgain" = "请重新输入您的密码";
+"My_findPassword_2_success" = "密码找回成功";
+"My_findPassword_2_error" = "密码找回失败";
+"My_registered_getCheckNum_error" = "验证码获取失败";
+
+//我的信息
+"My_information_imagetext" = "头像:";
+"My_information_input_nickname" = "请输入新的昵称";
+"My_information_nickname_failure" = "昵称设置失败";
+"My_information_nickname_error" = "昵称格式设置错误";
+"My_information_inputEmail" = "请输入新的邮箱";
+"My_information_EmailError" = "邮箱格式错误";
+"My_information_EmailFailure" = "邮箱设置失败";
+"My_information_image" = "相册";
+"My_information_camera" = "相机";
+"My_information_imageError" = "无法访问相册";
+"My_information_cameraError" = "相机不可用";
+"My_information_setSuccess" = "设置成功";
+"My_information_setError" = "设置失败";
+"My_information_failure" = "失败";
+"My_information_out" = "退出账号";
+
+//修改密码
+"My_change_old_pwd_change" = "修改密码";
+"My_change_old_pwd_inputOld" = "请输入您的旧密码";
+"My_change_old_pwd_inputNew" = "请输入您的新密码";
+"My_change_old_pwd_inputNewAgain" = "请再次输入您的新密码";
+"My_change_old_pwd_error" = "密码格式错误";
+"My_change_old_pwd_pwdError" = "两次密码输入不一致";
+"My_change_old_pwd_oldError" = "旧密码错误";
+"My_change_old_pwd_success" = "密码修改成功";
+"My_change_old_pwd_failure" = "密码修改失败";
+"My_change_old_pwd_messagenew" = "请输入新密码";
+"My_change_old_pwd_messageold" = "请先输入旧密码";
+
+//修改手机号码
+"My_change_phoneNum" = "修改手机号码";
+"My_change_phoneNum_inputNewNum" = "请输入您的新手机号码";
+"My_change_phoneNum_success" = "手机号码修改成功";
+"My_change_phoneNum_failure" = "手机号码修改失败";
+
+//我的好友
+"My_friend_newFriend" = "新的朋友";
+"My_friend_chat" = "群聊";
+"My_friend_message" = "我的消息";
+
+//我的设备
+"My_device_lable" = "设备名: ";
+"My_device_nums" = "序列号: ";
+"My_device_no_scan" = "没有扫描到设备";
+"My_device_scan_list" = "扫描到的设备";
+"My_device_NoBinding" = "没有绑定设备";
+"My_device_DeleteBinding" = "解绑成功";
+"My_device_DeleteError" = "解绑失败,请查看您的网络连接";
+"My_device_BindingFailure" = "设备已经被绑定";
+"My_device_BindingError" = "绑定失败，请检查您的网络设置";
+
+//在线商店
+"My_shop" = "思拓微官网";
+
+//弹窗提醒
+"window_delete" = "删除";
+"window_cancle" = "取消";
+"window_confirm" = "确认";
+"window_warning_addDevice" = "请先连接设备";

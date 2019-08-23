@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="eSs-6t-1yd" customClass="MyNickNameViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eSs-6t-1yd" id="tjQ-qH-3ax">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w9b-qm-XCW">
+                        <rect key="frame" x="84" y="14" width="228" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="UY0-8X-Cwx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昵称：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TD0-d7-Kr1">
+                        <rect key="frame" x="16" y="14" width="60" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="me7-ua-lb1"/>
+                            <constraint firstAttribute="height" constant="21" id="rOR-uu-GQO"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="w9b-qm-XCW" firstAttribute="trailing" secondItem="tjQ-qH-3ax" secondAttribute="trailingMargin" id="3xV-Ah-vtj"/>
+                    <constraint firstItem="TD0-d7-Kr1" firstAttribute="centerY" secondItem="tjQ-qH-3ax" secondAttribute="centerY" id="AMJ-M4-9n9"/>
+                    <constraint firstItem="w9b-qm-XCW" firstAttribute="centerY" secondItem="tjQ-qH-3ax" secondAttribute="centerY" id="LYt-e7-AqB"/>
+                    <constraint firstItem="TD0-d7-Kr1" firstAttribute="leading" secondItem="tjQ-qH-3ax" secondAttribute="leadingMargin" constant="8" id="cMF-6K-QZ0"/>
+                    <constraint firstItem="w9b-qm-XCW" firstAttribute="leading" secondItem="TD0-d7-Kr1" secondAttribute="trailing" constant="8" id="z4A-T3-lEb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lable_data" destination="w9b-qm-XCW" id="ifR-rR-Y28"/>
+                <outlet property="lable_title" destination="TD0-d7-Kr1" id="2h5-c7-Bbf"/>
+            </connections>
+            <point key="canvasLocation" x="215" y="182"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="agT-Jz-aQz" customClass="UIthreecount">
+            <rect key="frame" x="0.0" y="0.0" width="104" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_whq" translatesAutoresizingMaskIntoConstraints="NO" id="W5a-7y-U3X">
+                    <rect key="frame" x="41" y="0.0" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="TTh-cn-78e"/>
+                        <constraint firstAttribute="width" constant="22" id="mgy-hh-qzb"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="雾化器" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gel-zw-BiZ">
+                    <rect key="frame" x="19" y="70" width="67" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.00Ω" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hku-HN-JF4">
+                    <rect key="frame" x="20" y="35" width="64" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.91066919189999995" green="0.012548148590000001" blue="0.16609902530000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="W5a-7y-U3X" firstAttribute="top" secondItem="agT-Jz-aQz" secondAttribute="top" id="0Ml-7c-ol3"/>
+                <constraint firstItem="Hku-HN-JF4" firstAttribute="top" secondItem="W5a-7y-U3X" secondAttribute="bottom" constant="5" id="H3Y-ZX-fxS"/>
+                <constraint firstItem="gel-zw-BiZ" firstAttribute="height" secondItem="Hku-HN-JF4" secondAttribute="height" id="ZiU-dT-UwS"/>
+                <constraint firstItem="gel-zw-BiZ" firstAttribute="centerX" secondItem="agT-Jz-aQz" secondAttribute="centerX" id="aLw-Lk-eOm"/>
+                <constraint firstAttribute="bottom" secondItem="gel-zw-BiZ" secondAttribute="bottom" id="dgt-Pv-E3q"/>
+                <constraint firstItem="W5a-7y-U3X" firstAttribute="centerX" secondItem="agT-Jz-aQz" secondAttribute="centerX" id="iFw-aq-kTG"/>
+                <constraint firstItem="gel-zw-BiZ" firstAttribute="top" secondItem="Hku-HN-JF4" secondAttribute="bottom" constant="5" id="sqF-HA-VeQ"/>
+                <constraint firstItem="Hku-HN-JF4" firstAttribute="centerX" secondItem="agT-Jz-aQz" secondAttribute="centerX" id="u93-rT-Dok"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="threecountDataLabel" destination="Hku-HN-JF4" id="i9B-H3-Kbj"/>
+                <outlet property="threecountImage" destination="W5a-7y-U3X" id="jCR-F8-QVY"/>
+                <outlet property="threecountNameLabel" destination="gel-zw-BiZ" id="p6J-9c-caM"/>
+            </connections>
+            <point key="canvasLocation" x="190" y="528"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_whq" width="16" height="20"/>
+    </resources>
+</document>

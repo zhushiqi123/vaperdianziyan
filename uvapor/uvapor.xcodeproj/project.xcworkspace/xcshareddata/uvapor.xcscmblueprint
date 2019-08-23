@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FC6D8E1B62D745B76A47CE36A6ABC251BD98AC34",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6FE2BE3EB644D6D7614CFBB61E2FC59432258754" : 9223372036854775807,
+    "FC6D8E1B62D745B76A47CE36A6ABC251BD98AC34" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "173E4731-86A2-412A-84A8-1F1B8D003DE8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6FE2BE3EB644D6D7614CFBB61E2FC59432258754" : "",
+    "FC6D8E1B62D745B76A47CE36A6ABC251BD98AC34" : "uvapor\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "uvapor",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "uvapor.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/tyzCode\/STW_BLE_SDK_Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FE2BE3EB644D6D7614CFBB61E2FC59432258754"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/tyzCode\/uvapor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FC6D8E1B62D745B76A47CE36A6ABC251BD98AC34"
+    }
+  ]
+}

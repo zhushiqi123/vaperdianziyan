@@ -1,0 +1,253 @@
+/* 
+  Localizable.strings
+  uvapor
+
+  Created by 田阳柱 on 16/11/26.
+  Copyright © 2016年 TYZ. All rights reserved.
+*/
+//底部状态栏
+"tabBar_device" = "Vapor";
+"tabBar_Custom" = "Custom";
+"tabBar_Plan" = "Plan";
+"tabBar_My" = "Setting";
+
+//电子烟 - View
+"Vapor_device" = "Device";
+
+"Vapor_Power" = "Power W";
+"Vapor_Temp_F" = "Temp ℉";
+"Vapor_Temp_C" = "Temp ℃";
+"Vapor_Voltage" = "Voltage V";
+
+"Vapor_Atomizer" = "Atomizer";
+"Vapor_number" = "Number";
+"Vapor_nums" = "";
+"Vapor_Times" = "Times";
+
+"Vapor_choose_Atomizer" = "Please choose the atomizer";
+"Vapor_choose_Atomizer_message" = "Please keep the atomizer for room temperature state!";
+
+"Vapor_choose_Custom" = "Please choose a curve";
+"Vapor_choose_Custom_message" = "Please choose a power control curve";
+
+"Vapor_change_DeviceName" = "Modify the device name";
+"Vapor_change_DeviceName_message" = "Modify the device name up to 15 characters!";
+"Vapor_change_DeviceName_warning" = "Please enter a device name";
+"Vapor_change_DeviceName_error" = "The device name is incorrect";
+"Vapor_change_DeviceName_failure" = "Success";
+"Vapor_change_DeviceName_success" = "Failure";
+
+"Vapor_login_warning" = "Please log in first";
+"Vapor_binding_warning" = "Please bind the device first";
+"Vapor_NoDevice_warning" = "No scan to device";
+
+//自定义 - View
+"Custom_title" = "Custom";
+
+"Custom_bar_powerLine" = "Power Line";
+"Custom_bar_Update" = "Update";
+"Custom_bar_TurnOrOff" = "Turn on/off";
+"Custom_bar_powerBattery" = "Battery";
+
+"Custom_TCR_choose_Atomizer" = "Select the atomizing wire";
+"Custom_TCR_choose_Power_Message" = "Maximum output power standard";
+"Custom_TCR_choose_Power" = "Maximum output power";
+"Custom_TCR_choose_Rate_Message" = "Rate of change Standard";
+"Custom_TCR_choose_Rate" = "Rate of change";
+
+"Custom_PowerLine_editor" = "Edit";
+"Custom_PowerLine_use" = "Use";
+"Custom_PowerLine_dataa_rror" = "Power Line data Error";
+"Custom_PowerLine_dataa_error_01" = "Need to paint 21 points";
+
+"Custom_LOGO_warning" = "This device is not supported at this time";
+
+//软件升级
+"Custom_Update_softName" = "Soft Name";
+"Custom_Update_deviceName" = "Device Name";
+"Custom_Update_fileName" = "Fiel Name";
+"Custom_Update_message" = "*Special Note:";
+"Custom_Update_warning01" = "Do not disconnect Bluetooth during the upgrade;";
+"Custom_Update_warning02" = "Do not leave this page during the upgrade process;";
+"Custom_Update_warning03" = "During the upgrade, do not operate the electronic cigarette, and keep the distance between the electronic cigarette and the mobile phone;";
+"Custom_Update_warning04" = "When the upgrade fails, go back to the installation package selection page and perform the upgrade again;";
+"Custom_Update_netWork_Error" = "NetWork Error";
+"Custom_Update_not_update" = "No update available";
+
+//软件升级错误部分
+"Custom_Update_status_UndoUpdate" = "Undo the Update";
+"Custom_Update_status_progress" = "Progress:";
+"Custom_Update_status_checkFile" = "Check File";
+"Custom_Update_status_checkFile_start" = "Start Check File";
+"Custom_Update_status_checkFileOK" = "Check File Success";
+"Custom_Update_status_checkBin" = "Check Bin";
+"Custom_Update_status_checkBinOutTime" = "Check Bin Time Out";
+"Custom_Update_status_checkBinError" = "Check Bin Error";
+"Custom_Update_status_checkBinName" = "Check File name";
+"Custom_Update_status_CheckSoftVersion" = "Check Soft Version";
+"Custom_Update_status_CheckDeviceVersion" = "Check Device Version";
+"Custom_Update_status_CheckBinFiel" = "Check Bin File";
+"Custom_Update_status_UpdateFiel" = "Updating";
+"Custom_Update_status_downOk" = "Complete data reception, Writing now";
+"Custom_Update_status_device_restart" = "Device is restarting, waiting for reconnection";
+"Custom_Update_status_checkFileError" = "Bin Error";
+"Custom_Update_status_softVisionError" = "Soft Version Error";
+"Custom_Update_status_BleError" = "Bluetooth signal is not stable";
+"Custom_Update_status_writeNow" = "Writing Bin Now";
+"Custom_Update_status_writeNowError" = "Writing Bin Error";
+"Custom_Update_status_device_restart_now" = "Device is restarting, Waiting for reconnection";
+"Custom_Update_status_UpdateSuccess" = "Update Success";
+"Custom_Update_status_UpdateSuccess01" = "Update Success";
+"Custom_Update_status_updateSuccessError" = "Connection failed";
+"Custom_Update_status_BLEOutError" = "Bluetooth disconnect";
+"Custom_Update_status_BLEOut" = "Bluetooth disconnect";
+"Custom_Update_status_AllCheckNow" = "Final verification";
+"Custom_Update_status_WriteError" = "Writing Bin Error";
+"Custom_Update_status_UpdateError" = "Update Failure";
+
+"Custom_TurnOrOff_Lock" = "Lock";
+"Custom_TurnOrOff_unlock" = "UnLock";
+
+"Custom_powerBattery_voltage" = "Voltage";
+"Custom_powerBattery_current" = "Current";
+"Custom_powerBattery_battery" = "Battery";
+
+//计划 - View
+"Plan_lable01_title" = "Records";
+"Plan_lable01_planText" = "Plan Setting";
+"Plan_lable01_planWindow_title" = "Please input plan vapor number";
+"Plan_lable01_planWindow_error" = "Input Error!";
+"Plan_lable01_planWindow_success" = "Success";
+
+"Plan_lable02_title" = "Vapor records graph";
+
+"Plan_lable03_title" = "Vapor records bar chart";
+
+"Plan_lable04_title" = "Vapor habits";
+
+//我的 - View
+"My_Login" = "Login";
+"My_Friends" = "Friends";
+"My_Message" = "Message";
+"My_Device" = "Device";
+"My_Language" = "Language";
+"My_Shop" = "Shop";
+"My_feedback" = "Feedback";
+"My_shareAPP" = "Recommend App to friends";
+
+"GreenHandStatus" = "Greenhand";
+"GreenHandON" = "ON";
+"GreenHandOFF" = "OFF";
+
+//登录
+"My_Login_input_userName" = "Pleasw input account number";
+"My_Login_input_password" = "Pleasw input password";
+"My_Login_registered" = "Registered";
+"My_Login_findPassword" = "Forget";
+"My_Login_username" = "Pleasw input account number";
+"My_Login_username_error01" = "Account number Error";
+"My_Login_password_error01" = "Please input password";
+"My_Login_password_error02" = "Password Error";
+"My_Login_error" = "Account number Or Password Error";
+
+//注册
+"My_registered" = "Registered";
+"My_registered_input_userName" = "Use your mobile phone to register";
+"My_registered_phone" = "Phone";
+"My_registered_phone11" = "11 Number";
+"My_registered_checknum4" = "4 Code";
+"My_registered_checknum" = "Code";
+"My_registered_getCheckNum" = "Get Code";
+"My_registered_getCheckNum_success" = "Get code success";
+"My_registered_phone_use_error" = "Account has been registered";
+"My_registered_nex" = "Next";
+"My_registered_phoneError" = "Account Error";
+"My_registered_input_checkNum" = "Please input Code";
+"My_registered_checkNumError" = "Code Error";
+
+"My_registered_2_setTitle" = " Set nickname and password";
+"My_registered_2_setNickName_lable" = "Name";
+"My_registered_2_setpassword_lable" = "Pwd";
+"My_registered_2_setagain_lable" = "Again";
+"My_registered_2_setNickName_text" = "Please set your nickname";
+"My_registered_2_setpassword_text" = "Please set your password";
+"My_registered_2_setagain_text" = "Please input password again";
+
+"My_registered_02_nickToLong" = "Nickname too long";
+"My_registered_02_pwdToLong" = "Password too long";
+"My_registered_02_pwdError" = "The two passwords are entered inconsistently";
+"My_registered_02_inputuseName" = "Please input nickname";
+"My_registered_02_pwd_error" = "The format of the password is incorrect";
+"My_registered_02_Complete" = "Complete";
+"My_registered_02_success" = "registration success";
+"My_registered_02_failure" = "registration failure";
+
+//快速找回密码
+"My_findPassword" = "Password";
+"My_findPassword_title" = "Use your phone for password recovery";
+"My_findPassword_2_newPwd" = "Please set your new password";
+"My_findPassword_2_newPwdAgain" = "Please re-enter your password";
+"My_findPassword_2_success" = "Success";
+"My_findPassword_2_error" = "Failure";
+"My_registered_getCheckNum_error" = "Get code Error";
+
+//我的信息
+"My_information_imagetext" = "Photo:";
+"My_information_input_nickname" = "Set nickname";
+"My_information_nickname_failure" = "Nickname set Error";
+"My_information_nickname_error" = "Nickname formatting error";
+"My_information_inputEmail" = "New Email";
+"My_information_EmailError" = "The email wrong format";
+"My_information_EmailFailure" = "Email set Error";
+"My_information_image" = "Photo";
+"My_information_camera" = "Camera";
+"My_information_imageError" = "Can not access photo";
+"My_information_cameraError" = "Camera is not available";
+"My_information_setSuccess" = "Success";
+"My_information_setError" = "Failure";
+"My_information_failure" = "Failure";
+"My_information_out" = "Exit Login";
+
+//修改密码
+"My_change_old_pwd_change" = "Change Password";
+"My_change_old_pwd_inputOld" = "Old Password";
+"My_change_old_pwd_inputNew" = "New Password";
+"My_change_old_pwd_inputNewAgain" = "New Password Again";
+"My_change_old_pwd_error" = "The format of the password is incorrect";
+"My_change_old_pwd_pwdError" = "Two password entries are inconsistent";
+"My_change_old_pwd_oldError" = "Old password is wrong";
+"My_change_old_pwd_success" = "Success";
+"My_change_old_pwd_failure" = "Error";
+"My_change_old_pwd_messagenew" = "Please enter a new password";
+"My_change_old_pwd_messageold" = "Please enter the old password first";
+
+//修改手机号码
+"My_change_phoneNum" = "Phone Number";
+"My_change_phoneNum_inputNewNum" = "New phone number";
+"My_change_phoneNum_success" = "Success";
+"My_change_phoneNum_failure" = "Error";
+
+//我的好友
+"My_friend_newFriend" = "New Friends";
+"My_friend_chat" = "Chat";
+"My_friend_message" = "Message";
+
+//我的设备
+"My_device_lable" = "Name: ";
+"My_device_nums" = "ID: ";
+"My_device_no_scan" = "No scan to device";
+"My_device_scan_list" = "Device List";
+"My_device_NoBinding" = "No device is bound";
+"My_device_DeleteBinding" = "Success";
+"My_device_DeleteError" = "Error, Check the network";
+"My_device_BindingFailure" = "The device is already bound";
+"My_device_BindingError" = "Error, Check the network";
+
+//在线商店
+"My_shop" = "stw-ecig";
+
+//弹窗提醒
+"window_delete" = "Delete";
+"window_cancle" = "Cancel";
+"window_confirm" = "Confirm";
+"window_warning_addDevice" = "Please connect the device first";
